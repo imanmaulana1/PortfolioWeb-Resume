@@ -1,0 +1,131 @@
+/*-----SMARTPHONE------*/
+@media (min-width: 320px) and (max-width: 767px) {
+  nav .menu-icon {
+    color: #fff;
+    font-size: 40px;
+    padding: 0px 20px;
+    display: block;
+    transition: transform 0.5s;
+  }
+
+  nav .menu-icon:hover {
+    transform: scale(1.2);
+    color: rgb(220, 150, 21);
+  }
+
+  .top-wrapper-logo {
+    padding-top: 8px;
+    font-size: 23px;
+  }
+
+  nav .top-wrapper-btn,
+  nav .top-wrapper-list {
+    display: none;
+  }
+
+  #hero > h1 {
+    font-size: 45px;
+  }
+  h3,
+  h4 {
+    font-size: 20px;
+  }
+  .newsletter {
+    position: static;
+  }
+
+  #email {
+    width: 50%;
+    padding-right: 15px;
+  }
+
+  .newsletter form input:last-child {
+    position: static;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+  .main-logo {
+    flex: 1;
+    display: none;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+
+  .main-content h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .contact-me p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  nav .menu-icon {
+    padding: 0px;
+  }
+  .top-wrapper-logo {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #hero > h1 {
+    font-size: 50px;
+  }
+}
+
+/*-----TABLET------*/
+@media (min-width: 767px) and (max-width: 1024px) {
+  nav .menu-icon {
+    color: #fff;
+    font-size: 60px;
+    padding: 0px 20px;
+    display: block;
+    transition: transform 0.5s;
+  }
+
+  nav .menu-icon:hover {
+    transform: scale(1.2);
+    color: rgb(220, 150, 21);
+  }
+
+  .top-wrapper-logo {
+    padding-top: 10px;
+    font-size: 40px;
+  }
+
+  nav .top-wrapper-btn,
+  nav .top-wrapper-list {
+    display: none;
+  }
+
+  .newsletter form input:last-child {
+    left: 27%;
+  }
+
+  #email {
+    width: 50%;
+  }
+
+  .main-content h2 {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+  .wrapper-skill {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .wrapper-skill .title h2 {
+    text-align: center;
+    font-size: 75px;
+    width: 840px;
+  }
+}

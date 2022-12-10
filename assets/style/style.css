@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px 8%;
+}
+
+nav .menu-icon {
+  display: none;
+}
+
+.top-wrapper-logo {
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: rgb(220, 150, 21);
+}
+
+.top-wrapper-list ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 25px;
+}
+
+.top-wrapper-list li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top-wrapper-list li a:hover {
+  color: rgb(220, 150, 21);
+  transition: 0.4s;
+}
+
+.top-wrapper-btn .btn {
+  background-color: rgb(220, 150, 21);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: transform 0.4s;
+  display: inline-block;
+}
+
+.top-wrapper-btn .btn:hover {
+  transform: scale(1.2);
+}
+
+#hero {
+  width: 85%;
+  margin: 3% auto;
+}
+
+h1,
+h3,
+h4 {
+  color: #fff;
+}
+
+h3,
+h4 {
+  font-size: 25px;
+}
+
+#hero > h1 {
+  font-size: 75px;
+  margin: 20px 0px 20px;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
+
+h4 {
+  letter-spacing: 2px;
+}
+
+.newsletter {
+  position: relative;
+}
+
+#email {
+  padding: 14px 130px 14px 15px;
+  border: 2px solid rgb(220, 150, 21);
+  outline: none;
+  border-radius: 30px;
+  width: 40%;
+}
+
+.newsletter form input:last-child {
+  position: absolute;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(220, 150, 21);
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px gray;
+  top: 6px;
+  left: 27%;
+}
+
+#about {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  width: 85%;
+  background-color: rgb(3, 3, 3);
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.main-logo {
+  flex: 1;
+}
+
+.main-content {
+  flex: 2;
+  margin-left: 5%;
+}
+.main-logo-img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content h2 {
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.main-content h5 {
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.main-content p {
+  letter-spacing: 1px;
+  line-height: 18px;
+  margin-bottom: 45px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: rgb(220, 150, 21);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid rgb(220, 150, 21);
+  cursor: pointer;
+}
+
+#skill {
+  background: #030303;
+  width: 100%;
+  padding: 100px 0px;
+  color: #fff;
+}
+
+.wrapper-skill {
+  background: #030303;
+  width: 85%;
+  margin: auto;
+}
+
+.wrapper-skill .title h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #191919;
+  width: 25%;
+  height: 365px;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card .fa {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: rgb(220, 150, 21);
+}
+
+.card h5 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.card .button {
+  background-color: rgb(220, 150, 21);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(220, 150, 21);
+  cursor: pointer;
+}
+
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact-me .button-two {
+  background-color: rgb(220, 150, 21);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.contact-me .button-two:hover {
+  background-color: transparent;
+  border: 2px solid rgb(220, 150, 21);
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background: #030303;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-name {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer .footer-end {
+  color: rgb(220, 150, 21);
+  bottom: 35px;
+  font-size: 14px;
+}
+.social {
+  display: flex;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(220, 150, 21);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
