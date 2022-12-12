@@ -9,8 +9,11 @@
 
 And this portfolio uses a number of open source website to work properly:
 (https://www.svgrepo.com/)
+
 (https://fonts.google.com/)
+
 (https://unsplash.com/)
+
 (https://fontawesome.com/icons/)
 
 ## Access to view
